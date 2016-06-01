@@ -1,0 +1,88 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    height: auto;
+    margin: 0 0 0 20px;
+    border-left: 1px solid grey;
+    box-shadow: 0 0 3px 3px rgba(211, 211, 211, 0.5);
+}
+
+header {
+    height: 3em;
+    position: fixed;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    background-color:azure;
+    z-index: 9999;
+}
+
+nav {
+    padding-top: 3em;
+    height: 5em;
+    position: relative;
+    border-bottom:1px solid grey;
+    box-shadow: 0 3px rgba(211, 211, 211, 0.5);
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0 7.5% 0 7.5%;
+    border: 1px dashed gray;
+    height: 100%;
+    width: auto;
+}
+
+h4, h1 {
+    border: 1px dashed blue;
+}
+
+h4 {
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h1 {
+    font-weight: italic;
+}
+
+#credits-social {
+    height: auto;
+    width: 100%;
+    border-top: 1px solid black;
+    position: relative;
+}
+em {
+    font-weight: bold;
+}
+#credits-social > p {
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    margin-right: 20px;
+}
+#socialm-icons {
+    height: auto;
+    width: 50px;
+    float: right;
+    border: 1px dashed red;
+}
+figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+img {
+    margin-top: 30px;
+    max-width: 100%;
+}
+figcaption{
+    width: 50%;
+    font-size: 14px;
+}
+
+figcaption > span {
+    font-size: 10px;
+}
