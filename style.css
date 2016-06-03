@@ -57,6 +57,7 @@ header li {
     width: 3em;
     border: 1px solid black;
     margin-left: 1em;
+    position: relative;
 }
 
 nav {
@@ -92,21 +93,30 @@ nav > ul {
     display: inline-block;
 }
 
-.article-bar > li {
+.article-bar {
     position: relative;
 }
 
 .article-bar > span {
     max-width: 150px;
     display: inline-block;
-    height: auto;
     padding-left: 3px;
+    position: relative;
+    height: auto;
 }
 
 span > h5, span > p {
     font-size: 12px;
     margin: 0;
     padding: 0;
+}
+
+li > h5 {
+    position: absolute;
+    top: 9px;
+    left: 78px;
+    margin: 0;
+    font-size: 10px;
 }
 
 #wrapper {
@@ -146,8 +156,8 @@ em {
     margin-right: 20px;
 }
 #socialm-icons {
-    height: auto;
-    width: 50px;
+    height: 40px;
+    width: auto;
     float: right;
     border: 1px dashed red;
 }
@@ -167,4 +177,41 @@ figcaption{
 
 figcaption > span {
     font-size: 10px;
+}
+
+#socialm-icons ul{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+#socialm-icons li {
+    height: 30px;
+    width: 30px;
+    background-color: darkgreen;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+#banner li, #speechbubble li{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 100px;
+    display: inline-block;
+    float: right;
+}
+
+#sidebar {
+    width: 7.5%;
+    border: 1px dashed blue;
+    height: 100%;
+    left: 0;
+    display: inline-block;        
+}
+
+.text-content {
+    width: 50%;
+    display: inline-block;
 }
