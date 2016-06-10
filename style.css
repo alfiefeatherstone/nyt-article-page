@@ -26,8 +26,14 @@ header > p {
     border-radius: 4px;
     z-index: 10000;
     margin: 0;
-    background-color:blanchedalmond;
+    background-color:white;
     padding: 0 3px 0 3px;
+    line-height: 2.1em;
+}
+
+header > p > img {
+    height: 16px;
+    width: 16px;
 }
 
 header > img {
@@ -40,7 +46,7 @@ header > img {
 header > img#imgsub {
     position: fixed;
     top: .5em;
-    left: 100px;
+    left: 130px;
 
 }
 
