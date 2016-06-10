@@ -29,11 +29,13 @@ header > p {
     background-color:white;
     padding: 0 3px 0 3px;
     line-height: 2.1em;
+    vertical-align: middle
 }
 
 header > p > img {
     height: 16px;
     width: 16px;
+    
 }
 
 header > img {
@@ -79,6 +81,15 @@ header > button:last-of-type {
 
 header > button:first-of-type {
     right: 50px;
+}
+
+ #rrrr {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    right: 20px;
+     left: none;
+     top: 15px;
 }
 
 
